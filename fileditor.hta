@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>b2998 File Editor</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <hta:application
+        id="fileMakerApp"
+        border="thin"
+        borderStyle="normal"
+        caption="yes"
+        maximizeButton="yes"
+        minimizeButton="yes"
+        showInTaskbar="yes"
+        sysMenu="yes"
+        windowState="normal"
+    />
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(36, 36, 36);
+        margin: 0;
+        padding: 10px;
+        color: white;
+    }
+    h1 {
+        background-color: rgb(53, 103, 228);
+        color: white;
+        padding: 10px;
+        margin: -10px -10px 10px -10px;
+        font-size: 18px;
+        font-weight: normal;
+        border-radius: 10px; /* Rounded header */
+    }
+    label {
+        font-size: 14px;
+        display: block;
+        margin-top: 10px;
+        color: white;
+    }
+    input[type="text"], textarea {
+        background-color: rgb(118, 118, 118);
+        color: white;
+        width: calc(100% - 20px);
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px; /* Rounded input fields */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+    }
+    textarea {
+        resize: vertical;
+        height: 150px;
+        border-radius: 15px; /* Slightly less rounded for textarea */
+    }
+    button {
+        background-color: rgb(53, 103, 228);
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 10px; /* Rounded buttons */
+        cursor: pointer;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    button:hover {
+        background-color: rgb(0, 32, 113);
+    }
+    #instruction {
+        font-size: 12px;
+        color: rgb(193, 193, 193);
+        margin-top: 20px;
+        padding: 10px;
+        background-color: rgb(61, 61, 61);
+        border: 1px solid #ddd;
+        border-radius: 10px; /* Rounded instruction box */
+    }
+</style>
+    <script type="text/javascript">
+        function createFile() {
+            var fileName = document.getElementById("fileName").value;
+            var fileContent = document.getElementById("fileContent").value;
+            var fso = new ActiveXObject("Scripting.FileSystemObject");
+            var file = fso.CreateTextFile(fileName, true);
+            file.WriteLine(fileContent);
+            file.Close();
+            alert("File saved successfully!");
+        }
+
+        function openFile() {
+            var fileName = document.getElementById("fileName").value;
+            var fso = new ActiveXObject("Scripting.FileSystemObject");
+            
+            if (fso.FileExists(fileName)) {
+                var file = fso.OpenTextFile(fileName, 1); // 1 = ForReading
+                var fileContent = file.ReadAll();
+                file.Close();
+                document.getElementById("fileContent").value = fileContent;
+                alert("File opened successfully!");
+            } else {
+                alert("File does not exist!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>b2998 File Editor</h1>
+    <label for="fileName">File Name:</label>
+    <input type="text" id="fileName" placeholder="Enter file name to save or open (if you don't want it in the same directory this program is in, enter the exact path.)"><br><br>
+    <label for="fileContent">File Content:</label><br>
+    <textarea id="fileContent" rows="10" cols="50" placeholder="Enter file content"></textarea><br><br>
+    <button onclick="createFile()">Save File</button>
+    <button onclick="openFile()">Open File</button><br>
+    <br>
+    <div id="instruction">
+        <label>Important:</label>
+        <p>Opening a file won't run it, it will just give it's file contents so you can edit it.</p>
+    </div>
+</body>
+</html>
