@@ -3,7 +3,7 @@ You just enter the file name or exact path and the contents, and it will be made
 ## Instant file opening
 You can easily open files by entering the file name or path and clicking the button.
 ## Lightweight
-It is built in an HTA, and it weighs only 4 kilobytes which is basically nothing. This also means it is fully open source.
+It is built in an HTA, meaning you can easily get the code of it.
 ## Contribute
 You can fork this and add new features.
 ## Screenshots
