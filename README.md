@@ -6,5 +6,5 @@ You can easily open files by entering the file name or path and clicking the but
 It is built in an HTA, and it weighs only 4 kilobytes which is basically nothing. This also means it is fully open source.
 ## Contribute
 You can fork this and add new features.
-
+## Screenshot
 ![screenshot](https://github.com/user-attachments/assets/ad02c8c1-46a3-42e4-9946-dc7f1a2f1af6)
