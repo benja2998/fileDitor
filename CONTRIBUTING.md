@@ -17,6 +17,6 @@ Thank you for considering contributing to fileDitor! Here are a few guidelines t
 - Use meaningful commit messages.
 
 ## Example
-Changing CSS styling of the program
-Adding new features
+- Changing CSS styling of the program
+- Adding new features
 (note that you don't have to follow the examples)
