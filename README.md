@@ -11,7 +11,7 @@ You can fork this and add new features.
 ### v1.0.1
 ![screenshot](https://github.com/user-attachments/assets/4cd12d47-e6ab-4e14-b3c7-35dc4fdc4903)
 ## How to use?
-### If you're on the GitHub pages site or don't want to go to the release page, download [here](https://github.com/benja2998/fileDitor/releases)
+### If you're on the GitHub pages site or don't want to go to the release page manually, download [here](https://github.com/benja2998/fileDitor/releases)
 ### The file you should run is contained inside the app folder.
 ![Captura de pantalla 2025-02-15 212247](https://github.com/user-attachments/assets/12905e74-74c1-4d0a-9368-a5a6e5a22798)
 ### If you get this warning, don't worry, it is because the file isn't signed.
