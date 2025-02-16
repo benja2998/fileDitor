@@ -1,3 +1,5 @@
+> usage demonstration (v1.0.1)
+https://github.com/user-attachments/assets/f54ff144-36cc-4d98-88cf-fa80300e4533
 ## Instant file creation
 You just enter the file name or exact path and the contents, and it will be made with a single click. No need to use the context menu and have to go through various steps.
 ## Instant file opening
