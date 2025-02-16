@@ -6,7 +6,7 @@ You can easily open files by entering the file name or path and clicking the but
 It is built in an HTA, meaning you can easily get the code of it.
 ## Contribute
 You can fork this and add new features.
-## Screenshots
+## Screenshot of latest release
 ### v1.0.1
 ![screenshot](https://github.com/user-attachments/assets/4cd12d47-e6ab-4e14-b3c7-35dc4fdc4903)
 ## How to use?
