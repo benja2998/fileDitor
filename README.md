@@ -4,7 +4,7 @@ You just enter the file name or exact path and the contents, and it will be made
 ## Instant file opening
 You can easily open files by entering the file name or path and clicking the button.
 ## Lightweight
-It is built in a HTML application file (.hta), which you can get the source code of in the app folder directly from the program file.
+It is built in a HTML application file (.hta), which you can get the source code of in the program file located in the app folder.
 ## Contribute
 You can fork this and add new features.
 ## Screenshot of latest release
