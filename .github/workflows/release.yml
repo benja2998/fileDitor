@@ -1,4 +1,4 @@
-name: Release
+name: file-editor
 
 on:
   push:
