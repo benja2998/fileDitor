@@ -1,4 +1,7 @@
 ![usage demonstration (filmed in v1.0.1, the program may look different on later releases)](https://github.com/user-attachments/assets/f54ff144-36cc-4d98-88cf-fa80300e4533)
+
+![download here if you're on the website or don't want to go to release page](https://github.com/benja2998/fileDitor/releases)
+
 ## Instant file creation
 You just enter the file name or exact path and the contents, and it will be made with a single click. No need to use the context menu and have to go through various steps.
 ## Instant file opening
