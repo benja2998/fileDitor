@@ -7,4 +7,5 @@ It is built in an HTA, meaning you can easily get the code of it.
 ## Contribute
 You can fork this and add new features.
 ## Screenshots
+## v1.0.0
 ![screenshot](https://github.com/user-attachments/assets/ad02c8c1-46a3-42e4-9946-dc7f1a2f1af6)
