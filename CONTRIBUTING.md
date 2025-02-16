@@ -19,4 +19,5 @@ Thank you for considering contributing to fileDitor! Here are a few guidelines t
 ## Example
 - Changing CSS styling of the program
 - Adding new features
+
 (note that you don't have to follow the examples)
