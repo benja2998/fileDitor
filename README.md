@@ -7,7 +7,7 @@ You can easily open files by entering the file name or path and clicking the but
 It is built in a HTML application file (.hta), which you can get the source code of in the program file located in the app folder.
 ## Contribute
 You can fork this and add new features.
-## Screenshot of latest release
+## Screenshot
 ### v1.0.1
 ![screenshot](https://github.com/user-attachments/assets/4cd12d47-e6ab-4e14-b3c7-35dc4fdc4903)
 ## How to use?
